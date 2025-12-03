@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>El Pájaro Hot Wings</title>
+    <meta name="description" content="¿Unos tostis o que? | Ve nuestro menu de tostis, boneles, alitas, hamburguesas y más en El Pájaro Hot Wings." />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@200..700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!-- Encabezado -->
+    <header>
+      <!-- Logo y nombre de la empresa -->
+      <img src="images/el-pajaro-logo.webp" alt="Logo Pájaro" class="logoPHW" />
+      <div class="nombre-empresa">
+        <h1>"EL PÁJARO"</h1>
+        <h2>Hot Wings</h2>
+      </div>
+
+      <!-- Navegación -->
+      <nav>
+        <ul>
+          <li><a href="#menu">Menú</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Contenido principal -->
+    <main>
+      <!-- Contenedor de filtros y menú -->
+      <section class="contenedor">
+        <div class="filtros">
+          <button class="btn-filtro" data-filtro="todo">
+            <img
+              src="https://cdn-icons-png.flaticon.com/128/3405/3405802.png"
+              alt="Icono de categoria Todos"
+            />
+            Todo
+          </button>
+          <button class="btn-filtro" data-filtro="pollo">
+            <img
+              src="https://cdn-icons-png.flaticon.com/128/8994/8994485.png"
+              alt="Icono de categoria Pollo"
+            />
+            Pollo
+          </button>
+          <button class="btn-filtro" data-filtro="sushi">
+            <img
+              src="https://cdn-icons-png.flaticon.com/128/18358/18358741.png"
+              alt="Icono de categoria Sushi"
+            />
+            Sushi
+          </button>
+          <button class="btn-filtro" data-filtro="complementos">
+            <img
+              src="https://cdn-icons-png.flaticon.com/128/3353/3353461.png"
+              alt=""
+            />
+            Complementos
+          </button>
+          <button class="btn-filtro" data-filtro="bebidas">
+            <img
+              src="https://cdn-icons-png.flaticon.com/512/12/12715.png"
+              alt="Icono de categoria Bebidas"
+            />
+            Bebidas
+          </button>
+        </div>
+
+        <!-- Contenedor de productos -->
+        <div class="menu">
+
+          <div class="producto" data-categoria="pollo">
+            <div class="contenedor-img-prod">
+              <img class="img-prod" src="images/tostis.webp" alt="Imagen de tostitos preparados con boneless"/>
+            </div>
+            <h3>Tostis</h3>
+            <p class="descripcion">
+              Tostitos preparados con unos ricos boneless, apio, zanahoria y
+              ranch, con su salsa preferida.
+            </p>
+            <div class="precio-cat">
+              <span class="precio">$110</span>
+              <img
+                src="https://cdn-icons-png.flaticon.com/128/8994/8994485.png"
+                alt="Icono de categoria pollo"
+                class="categoria"
+              />
+            </div>
+          </div>
+
+          <div class="producto" data-categoria="pollo">
+            <div class="contenedor-img-prod">
+              <img
+                class="img-prod"
+                src="https://images.squarespace-cdn.com/content/v1/57f29c40e58c6227ebdb3648/1509032831755-J6JYN50RJZL7IDRBWNT5/IMG_9571.jpg"
+                alt="Imagen de orden de alitas"
+              />
+            </div>
+            <h3>Orden de Alitas</h3>
+            <p class="descripcion">
+              Deliciosas alitas con salsa de su elección acompañadas con tiras
+              de apio y zanahoria.
+            </p>
+            <div class="precio-cat">
+              <span class="precio">$160</span>
+              <img
+                src="https://cdn-icons-png.flaticon.com/128/8994/8994485.png"
+                alt="Icono de categoria pollo"
+                class="categoria"
+              />
+            </div>
+          </div>
+
+          <div class="producto" data-categoria="pollo">
+            <div class="contenedor-img-prod">
+              <img class="img-prod" src="images/boneless.webp" alt="Imagen de orden de boneless en charola" />
+            </div>
+            <h3>Orden de Boneless</h3>
+            <p class="descripcion">
+              Rica orden de boneless con salsa a elegir acompañada de tiras de
+              apio y zanahoria.
+            </p>
+            <div class="precio-cat">
+              <span class="precio">$150</span>
+              <img
+                src="https://cdn-icons-png.flaticon.com/128/8994/8994485.png"
+                alt="Icono de categoria pollo"
+                class="categoria"
+              />
+            </div>
+          </div>
+
+          <div class="producto" data-categoria="complementos">
+            <div class="contenedor-img-prod">
+              <img
+                class="img-prod"
+                src="https://www.cocinavital.mx/wp-content/uploads/2020/09/papas-a-la-francesa-crujientes.jpg"
+                alt="Imagen de papas a la francesa crujientes"
+              />
+            </div>
+            <h3>Papas a la Francesa</h3>
+            <p class="descripcion">
+              Las clásicas papas fritas a la francesa acompañadas de catsup y
+              aderezo ranch.
+            </p>
+            <div class="precio-cat">
+              <span class="precio">$80</span>
+              <img
+                src="https://cdn-icons-png.flaticon.com/128/3353/3353461.png"
+                alt="Icono de categoria complementos"
+                class="categoria"
+              />
+            </div>
+          </div>
+
+          <div class="producto" data-categoria="bebidas">
+            <div class="contenedor-img-prod">
+              <img
+                class="img-prod"
+                src="https://www.cinemaburger.com/wp-content/uploads/2017/04/bebida-limonada-fresa.jpg"
+                alt="Imagen de limonada de fresa en vaso con hielo"
+              />
+            </div>
+            <h3>Limonada de Fresa</h3>
+            <p class="descripcion">
+              Refrescante limonada con el toque de fresa natural. Se vende en
+              botellas de 500 ml.
+            </p>
+            <div class="precio-cat">
+              <span class="precio">$30</span>
+              <img
+                src="https://cdn-icons-png.flaticon.com/512/12/12715.png"
+                alt="Icono de categoria bebidas"
+                class="categoria"
+              />
+            </div>
+          </div>
+
+          <div class="producto" data-categoria="sushi">
+            <div class="contenedor-img-prod">
+              <img
+                class="img-prod"
+                src="https://tb-static.uber.com/prod/image-proc/processed_images/3734164b958be02e906580d20a4468d9/b4facf495c22df52f3ca635379ebe613.jpeg"
+                alt="Imagen de sushi cowboy"
+              />
+            </div>
+            <h3>Sushi Cowboy</h3>
+            <p class="descripcion">
+              Sushi empanizado relleno de camarón, carne, aguacate y queso
+              crema.
+            </p>
+            <div class="precio-cat">
+              <span class="precio">$130</span>
+              <img
+                src="https://cdn-icons-png.flaticon.com/128/18358/18358741.png"
+                alt="Icono de categoria sushi"
+                class="categoria"
+              />
+            </div>
+          </div>
+
+          <div class="producto" data-categoria="complementos">
+            <div class="contenedor-img-prod">
+              <img
+                class="img-prod"
+                src="https://mtztijerina.mx/cdn/shop/files/comp-dedos-de-queso.jpg?v=1733855691&width=1920"
+                alt="Imagen de dedos de queso"
+              />
+            </div>
+            <h3>Dedos de Queso</h3>
+            <p class="descripcion">
+              Crujientes por fuera y llenos de queso por dentro, el que nunca
+              puede faltar.
+            </p>
+            <div class="precio-cat">
+              <span class="precio">$80</span>
+              <img
+                src="https://cdn-icons-png.flaticon.com/128/3353/3353461.png"
+                alt="Icono de categoria complementos"
+                class="categoria"
+              />
+            </div>
+          </div>
+
+          <div class="producto" data-categoria="bebidas">
+            <div class="contenedor-img-prod">
+              <img
+                class="img-prod"
+                src="https://st4.depositphotos.com/1063437/22654/i/450/depositphotos_226543858-stock-photo-poznan-poland-nov-2018-bottles.jpg"
+                alt="Imagen de sodas variadas"
+              />
+            </div>
+            <h3>Sodas</h3>
+            <p class="descripcion">
+              Coca Cola, Fanta, Fresca, Sprite, etc. Disponible en diferentes
+              presentaciones.
+            </p>
+            <div class="precio-cat">
+              <span class="precio">$35</span>
+              <img
+                src="https://cdn-icons-png.flaticon.com/512/12/12715.png"
+                alt="Icono de cateoria bebidas"
+                class="categoria"
+              />
+            </div>
+          </div>
+
+          <div class="producto" data-categoria="pollo">
+            <div class="contenedor-img-prod">
+              <img
+                class="img-prod"
+                src="https://img0.didiglobal.com/static/soda_public/do1_Ptpk96uSrbBJKnFJu5w9"
+                alt="Imagen de hamburguesa boneless"
+              />
+            </div>
+            <h3>Hamburguesa Boneless</h3>
+            <p class="descripcion">
+              Hamburguesa preparada con boneless, tocino, lechuga, queso, tomate
+              y cebolla.
+            </p>
+            <div class="precio-cat">
+              <span class="precio">$150</span>
+              <img
+                src="https://cdn-icons-png.flaticon.com/128/8994/8994485.png"
+                alt="Icono de categoria pollo"
+                class="categoria"
+              />
+            </div>
+          </div>
+
+          <div class="producto" data-categoria="complementos">
+            <div class="contenedor-img-prod">
+              <img
+                class="img-prod"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS64ePxCBTva5fBpPvuorWE_GNHG18WJGxqGg&s"
+                alt="Imagen de sabritas con queso en charola pequeña"
+              />
+            </div>
+            <h3>Sabritas con Queso</h3>
+            <p class="descripcion">
+              Sabritas preparadas con queso para nachos. Se eligen las sabritas
+              que usted prefiera.
+            </p>
+            <div class="precio-cat">
+              <span class="precio">$40</span>
+              <img
+                src="https://cdn-icons-png.flaticon.com/128/3353/3353461.png"
+                alt="Icono de categoria complementos"
+                class="categoria"
+              />
+            </div>
+          </div>
+
+          <div class="producto" data-categoria="sushi">
+            <div class="contenedor-img-prod">
+              <img
+                class="img-prod"
+                src="https://www.emporiosushi.com/Fotos/55c4ae921727497.jpg.ashx?width=800"
+                alt="Imagen de sushi con boneless arriba, aderezo y zanahoria"
+              />
+            </div>
+            <h3>Sushi Boneless</h3>
+            <p class="descripcion">
+              Sushi empanizado relleno de pollo, aguacate y queso crema,
+              acompañados de boneless.
+            </p>
+            <div class="precio-cat">
+              <span class="precio">$130</span>
+              <img
+                src="https://cdn-icons-png.flaticon.com/128/18358/18358741.png"
+                alt="Icono de categoria sushi"
+                class="categoria"
+              />
+            </div>
+          </div>
+
+          <div class="producto" data-categoria="sushi">
+            <div class="contenedor-img-prod">
+              <img
+                class="img-prod"
+                src="images/california.webp"
+                alt="Imagen de sushi california"
+              />
+            </div>
+            <h3>Sushi California</h3>
+            <p class="descripcion">
+              Sushi natural relleno de camarón, aguacate, queso crema y pepino.
+            </p>
+            <div class="precio-cat">
+              <span class="precio">$120</span>
+              <img
+                src="https://cdn-icons-png.flaticon.com/128/18358/18358741.png"
+                alt="Icono de categoria sushi"
+                class="categoria"
+              />
+            </div>
+          </div>
+
+          <div class="producto" data-categoria="bebidas">
+            <div class="contenedor-img-prod">
+              <img
+                class="img-prod"
+                src="https://palrancho.co/wp-content/uploads/2014/08/Limonadaa.jpg"
+                alt="Imagen de limonada natural en vaso con un gajo de limon en el borde"
+              />
+            </div>
+            <h3>Limonada Natural</h3>
+            <p class="descripcion">
+              La clásica limonada natural, la confiable para acompañar su
+              comida.
+            </p>
+            <div class="precio-cat">
+              <span class="precio">$30</span>
+              <img
+                src="https://cdn-icons-png.flaticon.com/512/12/12715.png"
+                alt="Icono de categoria bebidas"
+                class="categoria"
+              />
+            </div>
+          </div>
+
+          <div class="producto" data-categoria="bebidas">
+            <div class="contenedor-img-prod">
+              <img
+                class="img-prod"
+                src="https://tofuu.getjusto.com/orioneat-local/resized2/tYq23vxf52WbuNzfN-1218-x.webp"
+                alt="Imagen de agua natural embotellada"
+              />
+            </div>
+            <h3>Agua Natural</h3>
+            <p class="descripcion">
+              Para los que prefieren lo más natural, pero sin dejar de ser
+              refrescante.
+            </p>
+            <div class="precio-cat">
+              <span class="precio">$30</span>
+              <img
+                src="https://cdn-icons-png.flaticon.com/512/12/12715.png"
+                alt="Icono de categoria bebidas"
+                class="categoria"
+              />
+            </div>
+          </div>
+
+          <div class="producto" data-categoria="complementos">
+            <div class="contenedor-img-prod">
+              <img
+                class="img-prod"
+                src="https://thecookinglab.es/wp-content/uploads/2024/09/Patatas-gajo-en-freidora-de-aire.jpg"
+                alt="Imagen de papas gajo crujientes"
+              />
+            </div>
+            <h3>Papas Gajo</h3>
+            <p class="descripcion">
+              Orden de papas para quienes las prefieren crujientes por fuera y
+              suaves por dentro.
+            </p>
+            <div class="precio-cat">
+              <span class="precio">$80</span>
+              <img
+                src="https://cdn-icons-png.flaticon.com/128/3353/3353461.png"
+                alt="Icono de categoria complementos"
+                class="categoria"
+              />
+            </div>
+          </div>
+
+          <div class="producto" data-categoria="sushi">
+            <div class="contenedor-img-prod">
+              <img
+                class="img-prod"
+                src="https://clubreeco.com.mx/img/product/29_reeco_platillo21_Sushi_Mar_y_Tierra__874_00.webp"
+                alt="Imagen de sushi mar y tierra"
+              />
+            </div>
+            <h3>Sushi Mar y Tierra</h3>
+            <p class="descripcion">
+              Sushi empanizado relleno de camarón, carne, aguacate, queso crema
+              y pepino.
+            </p>
+            <div class="precio-cat">
+              <span class="precio">$120</span>
+              <img
+                src="https://cdn-icons-png.flaticon.com/128/18358/18358741.png"
+                alt="Icono de categoria sushi"
+                class="categoria"
+              />
+            </div>
+          </div>
+
+          <div class="producto" data-categoria="complementos">
+            <div class="contenedor-img-prod">
+              <img
+                class="img-prod"
+                src="https://www.paulinacocina.net/wp-content/uploads/2021/12/aros-de-cebolla-fritos.jpg"
+                alt="Imagen de aros de cebolla crujientes"
+              />
+            </div>
+            <h3>Aros de Cebolla</h3>
+            <p class="descripcion">
+              Crujientes aros de cebolla, la vieja confiable que no puede faltar
+              de acompañamiento.
+            </p>
+            <div class="precio-cat">
+              <span class="precio">$80</span>
+              <img
+                src="https://cdn-icons-png.flaticon.com/128/3353/3353461.png"
+                alt="Icono de categoria complementos"
+                class="categoria"
+              />
+            </div>
+          </div>
+
+          <div class="producto" data-categoria="pollo">
+            <div class="contenedor-img-prod">
+              <img class="img-prod" src="images/papus.webp" alt="Imagen de papas gajo, boneless, zanahoria, apio y aderezo ranch en charola" />
+            </div>
+            <h3>Papus</h3>
+            <p class="descripcion">
+              Una rica mezcla de papas gajo, boneless, zanahoria, apio y aderezo
+              ranch.
+            </p>
+            <div class="precio-cat">
+              <span class="precio">$110</span>
+              <img
+                src="https://cdn-icons-png.flaticon.com/128/8994/8994485.png"
+                alt="Icono de categoria pollo"
+                class="categoria"
+              />
+            </div>
+          </div>
+
+          <div class="producto" data-categoria="sushi">
+            <div class="contenedor-img-prod">
+              <img
+                class="img-prod"
+                src="https://www.kirasushi.cl/wp-content/uploads/2024/02/topping-dinamita.jpg"
+                alt="Imagen de sushi dinamita con topping por fuera"
+              />
+            </div>
+            <h3>Dinamita Roll</h3>
+            <p class="descripcion">
+              Sushi empanizado relleno de camarón empanizado, queso, aguacate y
+              topping por fuera.
+            </p>
+            <div class="precio-cat">
+              <span class="precio">$150</span>
+              <img
+                src="https://cdn-icons-png.flaticon.com/128/18358/18358741.png"
+                alt="Icono de categoria sushi"
+                class="categoria"
+              />
+            </div>
+          </div>
+
+          <div class="producto" data-categoria="bebidas">
+            <div class="contenedor-img-prod">
+              <img
+                class="img-prod"
+                src="https://cdn7.kiwilimon.com/brightcove/11152/640x640/11152.jpg.webp"
+                alt="Imagen de limonada de pepino con rodajas de pepino dentro del vaso y rodaja de limon en el borde"
+              />
+            </div>
+            <h3>Limonada de Pepino</h3>
+            <p class="descripcion">
+              Diferente a la original pero igual de rica, limonada preparada con
+              pepino natural.
+            </p>
+            <div class="precio-cat">
+              <span class="precio">$30</span>
+              <img
+                src="https://cdn-icons-png.flaticon.com/512/12/12715.png"
+                alt="Icono de categoria bebidas"
+                class="categoria"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Seccion de contacto y dirección -->
+      <section class="contacto">
+        <div class="columna">
+          <h3>Envianos un mensaje con tu pedido!</h3>
+          <form>
+            <textarea name="mensaje" id="mensaje" rows="5" placeholder="Hola, quiero pedir...." required></textarea>
+            <button id="btn-whatsapp">Enviar a WhatsApp</button>
+          </form>
+        </div>
+
+        <div class="columna columna-contacto">
+          <div class="contacto-info">
+            <img
+              src="https://cdn.simpleicons.org/whatsapp"
+              alt="Icono de whatsapp"
+            />
+            <div class="texto-contacto">
+              <span>WhatsApp</span>
+              <a href="https://wa.me/526323270605" target="_blank"
+                >+52 63 2327 0605</a
+              >
+            </div>
+          </div>
+          <div class="contacto-info">
+            <img
+              src="https://cdn.simpleicons.org/googlemaps"
+              alt="Icono de google maps"
+            />
+            <div class="texto-contacto">
+              <span>Dirección</span>
+              <a
+                href="https://maps.app.goo.gl/zfGEPbj3y9DMXd4j7"
+                target="_blank"
+                >Juarez entre Jesús Arellano y Jesús García, Col. Centro.
+                Magdalena de Kino</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="columna">
+          <img
+            class="img-mapa"
+            src="images/mapa.webp"
+            alt="Foto del mapa del lugar"
+          />
+        </div>
+      </section>
+    </main>
+
+    <!-- Pie de página con redes sociales y copyright -->
+    <footer>
+      <div class="redes">
+        <a href="https://facebook.com/ElpajaroHotwings" target="_blank"
+          ><img src="https://cdn.simpleicons.org/facebook/fff" alt="Icono de Facebook"
+        /></a>
+        <a href="https://instagram.com/elpajarohotwings/" target="_blank"
+          ><img src="https://cdn.simpleicons.org/instagram/fff" alt="Icono de Instagram"
+        /></a>
+      </div>
+      <p>&copy;2025 "El Pájaro Hot Wings". Todos los derechos reservados.</p>
+    </footer>
+    <!-- Script principal -->
+    <script src="script.js"></script>
+  </body>
+</html>
